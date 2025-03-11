@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 200px;
+}
+
+/*navigation Top*/
+.navTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: clamp(16px, 55.41px, 32px) 0;
+  width: 100%;
+}
+
+.links, .nav-items {
+  display: flex;
+  gap: clamp(16px, 55.41px, 32px);
+}
+
+.smalllogo {
+  background: url("EduPlanner Logo.svg") no-repeat center;
+  width: 66px;
+  height: 55.468px;
+  background-size: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
+/*centerBody*/
+.centerBody {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  gap: 32px;
+}
+
+.content {
+  flex: 1;
+  max-width: 500px;
+  margin-top: 200px;
+}
+
+.BrowserFrame {
+  width: min(800px, 50%);
+  height: auto;
+  margin-left: 32px;
+  flex-shrink: 0;
+}
+
+.BrowserFrame img {
+  width: 1008;
+  height: auto;
+  object-fit: contain;
+}
+
+.eclipse1, .eclipse2 {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.eclipse1 {
+  width: 318px;
+  height: 302px;
+  background: linear-gradient(90deg, #6183E4 0%, #9747FF 100%);
+  top: 200px;
+  left: 180px;
+}
+
+.eclipse2 {
+  width: 318px;
+  height: 302px;
+  background: linear-gradient(90deg, #6183E4 0%, #9747FF 100%);
+  top: 0px;
+  left: 0px;
+}
+
+.manageClass {
+  font-family: 'Jost', sans-serif;
+  font-size: clamp(32px, 92.35px, 48px);
+  margin-bottom: 16px;
+  line-height: 1.2;
+  text-align: left;
+
+}
+
+.catchPhrase {
+  font-size: clamp(16px, 36.94px, 20px);
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.getStarted {
+  padding: 16px 32px;
+  font-size: clamp(14px, 36.94px, 16px);
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #9747FF;
+  color: white;
+  border: none;
+  margin-top: 100px;
+}
+
+.getStarted:hover {
+  background-color: #8033FF;
+}
+
+.icon{
+  background: url("icon.svg") no-repeat center;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-left: 4px;   
+}
+
+.container {
+  background: linear-gradient(180deg, #9747FF 0%, #5B2B99 100%);
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: clamp(32px, 92.35px, 64px) 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  min-height: 890px;
+}
+/*features*/
+.features {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+}
+.features h2 {
+  text-align: center;
+  margin-bottom: 48px;
+  font-size: clamp(24px, 55.41px, 32px);
+  color: #f8f9fa;
+}
+
+.features-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  width: 100%;
+}
+
+.feature {
+  padding: clamp(24px, 73.88px, 32px);
+  background: #9747FF;
+  color: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: clamp(18px, 55.41px, 24px);
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/*footer*/
+footer {
+  padding: clamp(32px, 92.35px, 64px) 0;
+  background: #f8f9fa;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.branding {
+  text-align: center;
+  margin-top: 32px;
+}
+
+/*media queries*/
+@media (max-width: 1440px) {
+  .main-container {
+    padding: 0 100px;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+  .main-container {
+    padding: 0 50px;
+  }
+  
+  .BrowserFrame {
+    width: min(600px, 45%);
+  }
+}
+
+@media (max-width: 992px) {
+  .centerBody {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .BrowserFrame {
+    width: min(800px, 80%);
+    margin-left: 0;
+  }
+
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 0 32px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .main-container {
+    padding: 0 16px;
+  }
+
+  .content {
+    margin-top: 50px;
+  }
+
+  .BrowserFrame {
+    width: 100%;
+  }
+}
+
