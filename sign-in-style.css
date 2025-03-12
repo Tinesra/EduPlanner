@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 .sign-in-page {
@@ -11,7 +11,7 @@ body {
 
 .welcome-page {
   flex: 1;
-  background: linear-gradient(180deg, #9747ff, #5b2b99 80.5%);
+  background: linear-gradient(180deg, #9747ff, #5b2b99 89.5%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,14 +39,14 @@ body {
 .sign-in-form {
   flex: 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
   background: #fff;
+  margin-top: 200px;
 }
 
 .form-container {
   max-width: 400px;
   width: 100%;
+  margin-left: 120px;
 }
 
 .form-header {
@@ -58,6 +58,7 @@ body {
   font-weight: 600;
   color: #090914;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .description {
@@ -75,6 +76,7 @@ body {
   font-weight: 500;
   color: #090914;
   margin-bottom: 5px;
+  padding-top: 20px;
 }
 
 .input-group input {
@@ -97,6 +99,7 @@ body {
 .remember-me {
   display: flex;
   align-items: center;
+  padding-top: 20px;
 }
 
 .remember-me input {
@@ -120,6 +123,7 @@ body {
   border: none;
   cursor: pointer;
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .sign-in-button:hover {
