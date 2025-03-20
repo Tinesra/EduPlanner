@@ -647,14 +647,73 @@ a {
     white-space: nowrap;
   }
   
-  .homepage-or .group-wrapper {
+  .homepage-or .box {
     position: absolute;
     width: 1440px;
     height: 101px;
     top: 90px;
     left: 0;
-    background-image: url(./img/mask-group-2.png);
-    background-size: 100% 100%;
+
+  }
+  
+  .box {
+    width: 1440px;
+    height: 101px;
+  }
+
+  .box .BG {
+    position: fixed;
+    width: 1440px;
+    height: 101px;
+    top: 0;
+    left: 0;
+  }
+
+  .box .group {
+    position: relative;
+    width: 1238px;
+    height: 60px;
+    top: 19px;
+    left: 112px;
+  }
+
+  .box .div-3 {
+    position: absolute;
+    width: 377px;
+    height: 44px;
+    top: 11px;
+    left: 89px;
+  }
+
+  .box .text-wrapper-13 {
+    position: absolute;
+    width: 373px;
+    height: 22px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+
+  .box .text-wrapper-14 {
+    position: absolute;
+    width: 373px;
+    height: 22px;
+    top: 22px;
+    left: 0;
+    font-family: "Inter-SemiBold Italic", Helvetica;
+    font-weight: 600;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
   }
   
   .homepage-or .group-17 {
@@ -665,14 +724,6 @@ a {
     left: 112px;
   }
   
-  .homepage-or .ellipse-3 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-  }
   
   .homepage-or .group-18 {
     position: absolute;
