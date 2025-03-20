@@ -153,114 +153,7 @@ a {
     background-size: 100% 100%;
   }
   
-  .homepage-or .vector {
-    position: absolute;
-    width: 54px;
-    height: 4px;
-    top: 25px;
-    left: 10px;
-  }
-  
-  .homepage-or .group-4 {
-    position: absolute;
-    width: 3px;
-    height: 4px;
-    top: 25px;
-    left: 10px;
-    background-image: url(./img/group.png);
-    background-size: 100% 100%;
-  }
-  
-  .homepage-or .group-5 {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    top: 25px;
-    left: 15px;
-    background-image: url(./img/group-8.png);
-    background-size: 100% 100%;
-  }
-  
-  .homepage-or .group-6 {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    top: 25px;
-    left: 21px;
-    background-image: url(./img/group-10.png);
-    background-size: 100% 100%;
-  }
-  
-  .homepage-or .group-7 {
-    position: absolute;
-    width: 3px;
-    height: 4px;
-    top: 25px;
-    left: 27px;
-    background-image: url(./img/group-3.png);
-    background-size: 100% 100%;
-  }
-  
-  .homepage-or .group-8 {
-    position: absolute;
-    width: 3px;
-    height: 4px;
-    top: 25px;
-    left: 32px;
-    background-image: url(./img/group-2.png);
-    background-size: 100% 100%;
-  }
-  
-  .homepage-or .group-9 {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    top: 25px;
-    left: 37px;
-    background-image: url(./img/group-4.png);
-    background-size: 100% 100%;
-  }
-  
-  .homepage-or .group-10 {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    top: 25px;
-    left: 43px;
-    background-image: url(./img/group-12.png);
-    background-size: 100% 100%;
-  }
-  
-  .homepage-or .group-11 {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    top: 25px;
-    left: 49px;
-    background-image: url(./img/group-11.png);
-    background-size: 100% 100%;
-  }
-  
-  .homepage-or .group-12 {
-    position: absolute;
-    width: 3px;
-    height: 4px;
-    top: 25px;
-    left: 55px;
-    background-image: url(./img/group-7.png);
-    background-size: 100% 100%;
-  }
-  
-  .homepage-or .group-13 {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    top: 25px;
-    left: 60px;
-    background-image: url(./img/group-6.png);
-    background-size: 100% 100%;
-  }
-  
+    
   .homepage-or .overlap-group {
     position: absolute;
     width: 572px;
@@ -375,29 +268,7 @@ a {
     white-space: nowrap;
     font-style: normal;
   }
-  
-  .homepage-or .icon {
-    position: relative;
-    width: 18px;
-    height: 18px;
-  }
-  
-  .homepage-or .BG {
-    position: absolute;
-    width: 1440px;
-    height: 33px;
-    top: 1789px;
-    left: 0;
-  }
-  
-  .homepage-or .mask-group-2 {
-    position: absolute;
-    width: 1440px;
-    height: 12px;
-    top: 21px;
-    left: 0;
-  }
-  
+
   .homepage-or .text-wrapper-4 {
     position: absolute;
     width: 530px;
@@ -455,15 +326,7 @@ a {
     white-space: nowrap;
   }
   
-  .homepage-or .rectangle {
-    position: absolute;
-    width: 227px;
-    height: 128px;
-    top: 18px;
-    left: 6px;
-    object-fit: cover;
-  }
-  
+    
   .homepage-or .component-2 {
     top: 79px;
     left: 397px;
@@ -539,15 +402,6 @@ a {
     font-size: 15px;
     letter-spacing: -0.60px;
     line-height: 39px;
-  }
-  
-  .homepage-or .line {
-    position: absolute;
-    width: 400px;
-    height: 2px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
   }
   
   .homepage-or .group-16 {
@@ -741,7 +595,7 @@ a {
     left: 0;
     font-family: "Inter", Helvetica;
     font-weight: 600;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 24px;
@@ -758,172 +612,10 @@ a {
     font-family: "Inter", Helvetica;
     font-weight: 600;
     font-style: normal;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 24px;
     white-space: nowrap;
-  }
-  
-  .homepage-or .codicon-three-bars {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 11px;
-    left: 1208px;
-  }
-  
-  .homepage-or .browser-frame {
-    position: absolute;
-    width: 1085px;
-    height: 665px;
-    top: 312px;
-    left: 748px;
-    background-color: #ffffff;
-    border-radius: 8.48px;
-    overflow: hidden;
-    box-shadow: 0px 28.43px 56.86px -13.65px #5a2a9940;
-  }
-  
-  .homepage-or .image-wrapper {
-    position: absolute;
-    width: 1085px;
-    height: 620px;
-    top: 45px;
-    left: 0;
-    background-color: #ffffff;
-  }
-  
-  .homepage-or .image {
-    position: absolute;
-    width: 780px;
-    height: 554px;
-    top: 33px;
-    left: 23px;
-    object-fit: cover;
-  }
-  
-  .homepage-or .core-safari-big-sur {
-    position: absolute;
-    width: 1085px;
-    height: 45px;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    border-radius: 8.48px 8.48px 0px 0px;
-    box-shadow: 0px 0.42px 0px #00000026, inset 0px -0.42px 0px #0000000d;
-  }
-  
-  .homepage-or .toolbar-group {
-    display: inline-flex;
-    align-items: center;
-    gap: 6.78px;
-    position: absolute;
-    top: 10px;
-    left: 943px;
-  }
-  
-  .homepage-or .core-safari-big-sur-2 {
-    position: relative;
-    width: 27.97px;
-    height: 23.73px;
-  }
-  
-  .homepage-or .toolbar-group-2 {
-    display: inline-flex;
-    align-items: center;
-    position: absolute;
-    top: 10px;
-    left: 114px;
-    overflow: hidden;
-  }
-  
-  .homepage-or .core-safari-big-sur-3 {
-    top: 10px;
-    left: 78px;
-    position: absolute;
-    width: 28px;
-    height: 24px;
-  }
-  
-  .homepage-or .core-traffic-lights {
-    position: absolute;
-    width: 44px;
-    height: 10px;
-    top: 17px;
-    left: 18px;
-  }
-  
-  .homepage-or .frame {
-    width: 509px;
-    height: 24px;
-    top: 10px;
-    left: 288px;
-    position: absolute;
-    overflow: hidden;
-  }
-  
-  .homepage-or .core-safari-big-sur-4 {
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 28px;
-    height: 24px;
-  }
-  
-  .homepage-or .core-safari-big-sur-5 {
-    position: absolute;
-    width: 437px;
-    height: 24px;
-    top: 0;
-    left: 36px;
-    background-color: #0000000d;
-    border-radius: 5.09px;
-  }
-  
-  .homepage-or .frame-2 {
-    display: inline-flex;
-    align-items: center;
-    gap: 5.09px;
-    top: 5px;
-    left: 159px;
-    position: absolute;
-    overflow: hidden;
-  }
-  
-  .homepage-or .lock {
-    position: relative;
-    width: 6.64px;
-    height: 9.69px;
-  }
-  
-  .homepage-or .text {
-    position: relative;
-    width: 108.04px;
-    height: 13.65px;
-    margin-top: -0.85px;
-    font-family: "SF Pro Text-Regular", Helvetica;
-    font-weight: 400;
-    color: #4c4c4c;
-    font-size: 11px;
-    letter-spacing: -0.04px;
-    line-height: normal;
-  }
-  
-  .homepage-or .lock-2 {
-    position: absolute;
-    width: 9px;
-    height: 11px;
-    top: 7px;
-    left: 423px;
-  }
-  
-  .homepage-or .SPACER {
-    position: absolute;
-    width: 33px;
-    height: 28px;
-    top: 0;
-    left: 567px;
-    border-radius: 6px;
   }
   
